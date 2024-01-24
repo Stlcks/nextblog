@@ -1,12 +1,12 @@
 "use client"
 
-import { ThemeContext } from '@/context/ThemeContext'
-import React, { useContext } from 'react'
+import { ThemeContext } from "@/context/ThemeContext";
+import React, { useContext } from "react";
 
-const ThemePRovider = () => {
+const ThemeProvider = () => {
+    const { theme } = useContext(ThemeContext);
+    return <div className={theme}>ThemeProvider</div>;
 
-    const {theme} = useContext(ThemeContext)
-    return (
-        <div className={theme}>ThemeProvider</div>
-    )
 }
+
+export default ThemeProvider;

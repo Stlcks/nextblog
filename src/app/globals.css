@@ -1,8 +1,8 @@
 :root{
-    --bg:white,
+    --bg:white;
     --textColor:black;
     --softBg:#f0f0f0;
-    --softTextColor:#626262
+    --softTextColor:#626262;
 }
 
 *{
@@ -21,11 +21,11 @@ a{
     text-decoration: none;
 }
 
-.dark{
-    --bg:#0f172a,
-    --textColor:#ddd,
-    --softbg:#1f273a,
-    --softTextColor:#a6a6a6
+.light{
+    --bg:#0f172a;
+    --textColor:#ddd;
+    --softBg:#1f273a;
+    --softTextColor:#a6a6a6;
 }
 
 .container{
@@ -33,7 +33,7 @@ a{
     background-color: var(--bg);
     color: var(--textColor);
 }
- 
+
 .wrapper{
     max-width: 1536px;
     margin-left: auto;
@@ -42,21 +42,21 @@ a{
     padding-right: 80px;
 }
 
-@media screen and (max-widht:1536px) {
+@media screen and (max-width:1536px) {
 
     .wrapper{
         max-width: 1366px;
     }
 }
 
-@media screen and (max-widht:1280px) {
+@media screen and (max-width:1280px) {
 
     .wrapper{
         max-width: 1024px;
     }
 }
 
-@media screen and (max-widht:1024px) {
+@media screen and (max-width:1024px) {
 
     .wrapper{
         max-width: 7680px;
@@ -65,14 +65,14 @@ a{
     }
 }
 
-@media screen and (max-widht:768px) {
+@media screen and (max-width:768px) {
 
     .wrapper{
         max-width: 640px;
     }
 }
 
-@media screen and (max-widht:640px) {
+@media screen and (max-width:640px) {
 
     .wrapper{
         max-width: 475px;
